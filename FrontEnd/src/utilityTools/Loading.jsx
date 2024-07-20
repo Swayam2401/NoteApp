@@ -2,9 +2,13 @@ import css from "../styles/style.module.css";
 
 function Loading() {
   return (
-    <div class={`${css.Loading} d-flex justify-content-center`}>
-      <div class="spinner-border" role="status">
-        <span class="visually-hidden">Loading...</span>
+    <div className={`${css.Loading} d-flex justify-content-center`}>
+      <div
+        className="spinner-border"
+        role="status"
+        style={{ width: "4rem", height: "4rem" }}
+      >
+        <span className="visually-hidden">Loading...</span>
       </div>
     </div>
   );
