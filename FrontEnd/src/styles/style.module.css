@@ -1,0 +1,263 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+*{
+    font-family: "Poppins", sans-serif;
+}
+.Container {
+    width: 500px;
+    margin-left: 35%;
+    margin-top: 10%;
+    border-radius: 10px;
+box-shadow: 5px 5px 5px #888888, -5px -5px 5px #cccccc;
+
+}
+
+.Button{
+    margin-bottom: 5px;
+    border-radius: 10px;
+    min-width: 50%;
+    min-height: 40px;
+    background-color: white;
+    font-size: large;
+    font-weight: 500;
+    border: none;
+
+}
+
+.Button :hover {
+    background-color: rgb(179, 179, 179);
+}
+
+.ButtonDark{
+    background-color: green;
+    color: white;
+}
+
+.Lable{
+    display: block;
+    font-size: medium;
+    margin-left: 15px;
+    margin-top: 10px;
+}
+
+.Input{
+    margin-left: 15px;
+    margin-bottom: 20px;
+    font-size: 20px;
+    min-width: 450px;
+    
+
+}
+
+.EyeButton{
+    background-color: white;
+    border: none;
+}
+
+.Container:focus {
+    outline: none;
+}
+
+.SubmitBtn {
+    margin-left: 15px;
+    margin-top: 15px;
+    margin-bottom: 20px;
+    min-width: 450px;
+    font-weight: bold;
+}
+
+.Error {
+        margin-bottom: 10px;
+        font-weight: bold;
+        color: red;
+        font-size:medium;
+}
+
+
+.NavBar{
+    background-color: rgba(190, 223, 237, 0.3);
+}
+
+.NavTitle {
+    font-size: 40px;
+        font-weight: bold;
+}
+
+.NavLink {
+    color: black;
+    font-style: normal;
+}
+
+.NavLink :hover{
+    color: blue;
+}
+
+.UserName{
+    display: flex;
+    margin-top: 15px;
+    width: fit-content;
+
+}
+
+.UserId {
+    margin-right: 25px;
+}
+
+.UserIcon {
+    width: 25px;
+    float: right;
+    height: 20px;
+    margin-top: 2px;
+}
+
+.NoNoteMessage{
+    font-weight: bold;
+        color: rgb(152, 154, 154);
+        margin-top: 200px;
+        margin-left: 615px;
+}
+
+.CardContainer{
+    margin-top: 10px;
+    margin-left:10px;
+    margin-bottom: 10px;
+    margin-right : 10px;
+    height: fit-content;
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.Card {
+    margin : 15px;
+    min-width: 20rem;
+    max-height: fit-content;
+}
+
+.CardButton{
+    background-color: white;
+    width: 0%;
+    height: 0%;
+    float: right;
+    border: none;
+    width: 30px;
+}
+
+.CardTitle{
+    font-size: 30px;
+    font-weight: bold;
+    color: rgb(46, 45, 45);
+}
+
+.PinButton{
+    height: 20px;
+    width: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;   
+}
+
+.TagContainer{
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+.Tag{
+    border: 0cap;
+    align-items: center;
+    padding: 3px;
+    background-color: rgb(210, 252, 239);
+    border-radius: 5px;
+    height: fit-content;
+    width: fit-content;
+    margin: 6px;
+}
+
+.Date{
+    color: rgb(103, 103, 103);
+}
+
+.PinnedCard {
+    background-color: rgba(255, 255, 0,0.3);
+}
+
+.AddNoteContainer{}
+
+.AddNote{
+    padding: 15px;
+    width: 650px;
+    margin-left: 29%;
+    margin-top: 3%;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px #888888, -5px -5px 5px #cccccc;
+    background-color: white;
+}
+
+.CancleIcon{
+    height: 25px;
+    width: 25px;
+    
+}
+
+.CancleButton{
+    float: right;
+    background-color: white;
+    margin: 5px;
+    border: 0cap;
+}
+
+.TitleInput{
+
+    margin-left: 15px;
+    margin-bottom: 20px;
+    width: 588px;
+    font-size: 25px;
+    
+}
+
+.Content {
+        margin-left: 15px;
+        margin-bottom: 20px;
+        width: 588px;
+        font-size: 18px;
+}
+
+.TagInput{
+    margin-left: 15px;
+    margin-bottom: 20px;
+    width: 230px;
+    font-size: 20px;
+
+}
+
+.AddSign{
+    height: 20px;
+    width: 20px;
+}
+
+.AddTagButton{
+    margin-left: 20px;
+    margin-bottom: 3px;
+}
+
+.AddButtonNewNote {
+    margin-left: 15px;
+    margin-top: 20px;
+        margin-bottom: 20px;
+        font-weight: bold;
+        width: 588px;
+}
+
+.DeleteTagButton{
+    margin-left: 8px;
+    background-color: rgb(210, 252, 239);
+    border: 0cap;
+}
+.TagCrossIcon{
+    height: 10px;
+    width: 10px;
+}
+
+.Loading{
+    margin-top: 18%;
+}
